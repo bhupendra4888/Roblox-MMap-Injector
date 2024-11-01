@@ -34,3 +34,4 @@
         ret
     NtProtectVirtualMemoryInline ENDP
 END
+
