@@ -426,3 +426,4 @@ typedef NTSTATUS(*NtSetInformationProcess_t)(HANDLE ProcessHandle, PROCESSINFOCL
 typedef NTSTATUS (*NtQueryVirtualMemory_t)(HANDLE ProcessHandle,PVOID BaseAddress,MEMORY_INFORMATION_CLASS MemoryInformationClass,PVOID MemoryInformation,SIZE_T MemoryInformationLength,PSIZE_T ReturnLength);
 
 
+
