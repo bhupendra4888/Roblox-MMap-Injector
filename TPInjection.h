@@ -10,3 +10,4 @@
 #include "WorkerFactory.h"
 
 bool CreateTPDirectThread(HANDLE process, void* addr);
+
