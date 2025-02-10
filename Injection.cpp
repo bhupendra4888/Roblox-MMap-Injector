@@ -254,3 +254,4 @@ void* ConvertAddrByBase(const void* Addr, const void* OldBase, const void* NewBa
 
 InternalVars injection_vars = {};
 MODULEINFO thismoduleinfo = {};
+
