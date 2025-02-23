@@ -339,3 +339,4 @@ typedef VOID(NTAPI* PTP_ALPC_CALLBACK)(
     _In_ PFULL_TP_ALPC Alpc
 );
 
+
