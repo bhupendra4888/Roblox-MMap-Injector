@@ -53,3 +53,4 @@ ULONG_PTR ConvertAddrByBase(ULONG_PTR Addr, ULONG_PTR OldBase, ULONG_PTR NewBase
 void * ConvertAddrByBase(const void* Addr, const void* OldBase, const void* NewBase);
 
 
+
