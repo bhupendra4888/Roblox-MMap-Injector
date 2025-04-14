@@ -19,3 +19,4 @@ extern "C" void Capture(...);
 extern "C" NTSTATUS NtQueryVirtualMemoryInline(_In_ HANDLE ProcessHandle, _In_opt_ PVOID BaseAddress, _In_ MEMORY_INFORMATION_CLASS MemoryInformationClass, _Out_writes_bytes_(MemoryInformationLength) PVOID MemoryInformation, _In_ SIZE_T MemoryInformationLength, _Out_opt_ PSIZE_T ReturnLength);
 extern "C" NTSTATUS NtContuneInline(PCONTEXT context,BOOL a);
 extern "C" NTSTATUS NtProtectVirtualMemoryInline(    _In_ HANDLE ProcessHandle,    _Inout_ PVOID* BaseAddress,    _Inout_ PSIZE_T RegionSize,    _In_ ULONG NewProtect,    _Out_ PULONG OldProtect);
+
