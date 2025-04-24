@@ -20,3 +20,4 @@ extern "C" NTSTATUS NtQueryVirtualMemoryInline(_In_ HANDLE ProcessHandle, _In_op
 extern "C" NTSTATUS NtContuneInline(PCONTEXT context,BOOL a);
 extern "C" NTSTATUS NtProtectVirtualMemoryInline(    _In_ HANDLE ProcessHandle,    _Inout_ PVOID* BaseAddress,    _Inout_ PSIZE_T RegionSize,    _In_ ULONG NewProtect,    _Out_ PULONG OldProtect);
 
+
