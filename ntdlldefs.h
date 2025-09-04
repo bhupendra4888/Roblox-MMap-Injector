@@ -437,3 +437,4 @@ typedef NTSTATUS (*NtQueryVirtualMemory_t)(HANDLE ProcessHandle,PVOID BaseAddres
 
 
 
+
