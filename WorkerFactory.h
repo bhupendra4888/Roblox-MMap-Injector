@@ -78,3 +78,4 @@ typedef enum _QUERY_WORKERFACTORYINFOCLASS
 
 
 
+
